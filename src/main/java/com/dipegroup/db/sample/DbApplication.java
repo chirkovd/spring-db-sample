@@ -5,7 +5,6 @@ import com.dipegroup.exceptions.services.messages.MessagesService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.data.domain.AuditorAware;
 
 /**
  * Project: spring-db-sample
@@ -26,11 +25,6 @@ public class DbApplication {
     @Bean
     public ExceptionMapper exceptionMapper() {
         return new ExceptionMapper("spring-db-sample", messagesService());
-    }
-
-    @Bean
-    public AuditorAware<String> auditorAware() {
-        return () -> null;
     }
 
     public static void main(String[] args) {

@@ -1,0 +1,37 @@
+[
+  {
+    "name":"The Alchemist",
+    "isbn":"0-06-250217-4 ",
+    "author":"Paulo Coelho"
+  },
+  {
+    "name":"The Lion, the Witch and the Wardrobe",
+    "isbn":" 0694524751",
+    "author":"C. S. Lewis"
+  },
+  {
+    "name":"She: A History of Adventure",
+    "isbn":"1606801481",
+    "author":"H. Rider Haggard"
+  },
+  {
+    "name":"The Da Vinci Code",
+    "isbn":"0-385-50420-9",
+    "author":"Dan Brown"
+  },
+  {
+    "name":"Think and Grow Rich",
+    "isbn":"978-1-60459-187-3",
+    "author":"Napoleon Hill"
+  },
+  {
+    "name":"Harry Potter and the Half-Blood Prince",
+    "isbn":"0-7475-8108-8",
+    "author":"J. K. Rowling"
+  },
+  {
+    "name":"The Catcher in the Rye",
+    "isbn":"0553104071",
+    "author":"J. D. Salinger"
+  }
+]

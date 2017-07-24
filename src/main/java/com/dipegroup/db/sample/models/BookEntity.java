@@ -5,7 +5,7 @@ import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
-import java.time.LocalDate;
+import java.util.Date;
 
 /**
  * Project: spring-db-sample
@@ -31,10 +31,10 @@ public class BookEntity {
     private String owner;
 
     @CreatedDate
-    private LocalDate created;
+    private Date created;
 
     @LastModifiedDate
-    private LocalDate modified;
+    private Date modified;
 
     public Long getId() {
         return id;
@@ -84,19 +84,19 @@ public class BookEntity {
         this.owner = owner;
     }
 
-    public LocalDate getCreated() {
+    public Date getCreated() {
         return created;
     }
 
-    public void setCreated(LocalDate created) {
+    public void setCreated(Date created) {
         this.created = created;
     }
 
-    public LocalDate getModified() {
+    public Date getModified() {
         return modified;
     }
 
-    public void setModified(LocalDate modified) {
+    public void setModified(Date modified) {
         this.modified = modified;
     }
 }

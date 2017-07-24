@@ -1,0 +1,15 @@
+version: '2'
+services:
+
+  postgresdb:
+    image: postgres:9.6.3
+    environment:
+      POSTGRES_PASSWORD: dbpassword
+      POSTGRES_USER: dbuser
+      POSTGRES_DB: dipegroupdb
+    ports:
+      - 5432:5432
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "10"
